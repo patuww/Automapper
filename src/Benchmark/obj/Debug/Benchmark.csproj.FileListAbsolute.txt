@@ -1,0 +1,1 @@
+C:\GitRepo\AutoMapper\src\Benchmark\bin\Debug\Benchmark.exe.config
