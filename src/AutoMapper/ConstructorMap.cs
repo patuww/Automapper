@@ -5,12 +5,20 @@ using System.Reflection;
 
 namespace AutoMapper
 {
+    /// <summary>
+    /// 
+    /// </summary>
     public class ConstructorMap
     {
         private readonly LateBoundParamsCtor _runtimeCtor;
         public ConstructorInfo Ctor { get; private set; }
         public IEnumerable<ConstructorParameterMap> CtorParams { get; private set; }
 
+        /// <summary>
+        /// Initializes a new instance of the <see cref="ConstructorMap"/> class.
+        /// </summary>
+        /// <param name="ctor">The ctor.</param>
+        /// <param name="ctorParams">The ctor params.</param>
         public ConstructorMap(ConstructorInfo ctor, IEnumerable<ConstructorParameterMap> ctorParams)
         {
             Ctor = ctor;
@@ -19,6 +27,11 @@ namespace AutoMapper
             _runtimeCtor = DelegateFactory.CreateCtor(ctor, CtorParams);
         }
 
+        /// <summary>
+        /// Resolves the value.
+        /// </summary>
+        /// <param name="context">The context.</param>
+        /// <returns></returns>
         public object ResolveValue(ResolutionContext context)
         {
             var ctorArgs = CtorParams
