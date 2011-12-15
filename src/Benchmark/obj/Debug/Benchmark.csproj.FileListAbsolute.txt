@@ -1,1 +1,10 @@
 C:\GitRepo\AutoMapper\src\Benchmark\bin\Debug\Benchmark.exe.config
+C:\Source\Automapper\src\Benchmark\bin\Debug\Benchmark.exe.config
+C:\Source\Automapper\src\Benchmark\bin\Debug\Benchmark.exe
+C:\Source\Automapper\src\Benchmark\bin\Debug\Benchmark.pdb
+C:\Source\Automapper\src\Benchmark\bin\Debug\AutoMapper.dll
+C:\Source\Automapper\src\Benchmark\bin\Debug\AutoMapper.pdb
+C:\Source\Automapper\src\Benchmark\bin\Debug\AutoMapper.xml
+C:\Source\Automapper\src\Benchmark\obj\Debug\ResolveAssemblyReference.cache
+C:\Source\Automapper\src\Benchmark\obj\Debug\Benchmark.exe
+C:\Source\Automapper\src\Benchmark\obj\Debug\Benchmark.pdb

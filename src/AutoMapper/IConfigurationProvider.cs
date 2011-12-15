@@ -2,6 +2,7 @@ using System;
 
 namespace AutoMapper
 {
+	// new comment
 	public class TypeMapCreatedEventArgs : EventArgs
 	{
 		public TypeMap TypeMap { get; private set; }
