@@ -1,5 +1,6 @@
 namespace AutoMapper
-{
+{	
+	///Public Class
 	public abstract class ValueResolver<TSource, TDestination> : IValueResolver
 	{
 		public ResolutionResult Resolve(ResolutionResult source)
