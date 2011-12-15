@@ -1,5 +1,5 @@
 using System;
-
+// Added Comment
 namespace AutoMapper.Mappers
 {
 	public class ArrayMapper : EnumerableMapperBase<Array>
