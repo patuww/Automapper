@@ -6,9 +6,15 @@ namespace AutoMapperSamples
 {
 	namespace ConfigurationValidation
 	{
+        /// <summary>
+        /// 
+        /// </summary>
 		[TestFixture]
 		public class BadConfigurationThrowing
 		{
+            /// <summary>
+            /// 
+            /// </summary>
 			public class Source
 			{
 				public int SomeValue { get; set; }
@@ -19,6 +25,9 @@ namespace AutoMapperSamples
 				public int SomeValuefff { get; set; }
 			}
 
+            /// <summary>
+            /// Sets up.
+            /// </summary>
 			[SetUp]
 			public void SetUp()
 			{

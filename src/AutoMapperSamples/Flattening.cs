@@ -12,6 +12,12 @@ namespace AutoMapperSamples
 		{
 			private readonly IList<OrderLineItem> _orderLineItems = new List<OrderLineItem>();
 
+            /// <summary>
+            /// Gets or sets the customer.
+            /// </summary>
+            /// <value>
+            /// The customer.
+            /// </value>
 			public Customer Customer { get; set; }
 
 			public OrderLineItem[] GetOrderLineItems()
